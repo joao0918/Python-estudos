@@ -1,0 +1,10 @@
+:.1f --> formata o numero de casa decimais
+
+enumerate(exemplarily) = enumera oque está dentro do parênteses
+
+import math
+math.sqrt --> calcula a raiz quadrada de um número, mas para funcionar precisa importar a função
+
+end='' --> isso faz com que os números fiquem enfileirados 
+
+lista.insert() --> ele adiciona itens a sua lista
