@@ -75,7 +75,7 @@ print(f'Valor convertido = {calculo_ms:.2f}')
 m_por_s = float(input('Qual a velocidade em KM/H: '))
 calculo_kmh = km_por_hora * 3.6
 print(f'Valor convertido = {calculo_kmh:.2f}')
-"""
+
 
 '12'
 
@@ -84,3 +84,4 @@ print(f'Valor convertido = {calculo_kmh:.2f}')
 entrada = float(input('Insira um valor em milhas: '))
 saida = 1.61 * entrada
 print(f'O valor convertido em KM/H = {saida:.2f}')
+"""
