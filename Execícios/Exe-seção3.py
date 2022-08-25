@@ -1,14 +1,20 @@
 #nessa seção temos loop for, range, loop while com break
+import math
+
+
+'01'
 
 """
-'01'
 lista = []
 for multiplos in range(0,16,3):
     lista.insert(multiplos,multiplos)   
 print(f" todos os multiplos de 3 = {lista}")
+"""
 
 
 '02'
+
+"""
 for repetição in range(1,4):
     for num in range(1,101):
         print(num)
@@ -21,11 +27,19 @@ while True:
             print(num)
     else:
         break
+"""
+
 
 '03'
+
+"""
 while True:
     for num in range(10,0,-1):
         print(num)
     break
 """
-'04'
+
+
+
+
+
