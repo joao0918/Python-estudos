@@ -1,6 +1,6 @@
 'listas'
 """
-representado por = [arrays]
+representado por = [list]
 Entra qualquer tipo de dado [True, 2.1, 2, "joao"]
 
 OBS:
@@ -204,3 +204,67 @@ while indice < len(cores):
 
 
 'Gerar indice em um for'
+#comando enumerate()
+
+"""
+for indice, cor in enumerate(cores):
+    print(indice, cor)
+"""
+
+
+'Encontrar o índice de um elemento na lista'
+#command .index(AProcurar, iniciar_no_indice, fim) or .index(AProcurar)
+
+"""
+print(lista1.index(1, 1))
+"""
+
+
+'slicing de lista'
+#command lista[inicio:fim:passo]
+
+"""
+print(lista1[1:-1:2])
+"""
+
+
+'invertendo os valores em uma lista'
+#command
+
+"""
+nome = ['joao', 'pedro']
+nome[0], nome[1] = nome[1], nome[0]
+print(nome)
+
+nome.reverse()
+print(nome)
+"""
+
+
+'soma, máximo, mínimo e tamanho'
+#comando sum(), max(), min(), len()
+
+"""
+print(sum(lista1))
+print(max(lista1)) 
+print(min(lista1))
+print(len(lista1))
+"""
+
+
+'lista em tuple'
+#comando tuple()
+
+"""
+tuple = tuple(lista1)
+print(type(tuple))
+"""
+
+
+'Desempacotando uma lista'
+#comando
+
+lista = [1, 2, 3]
+
+num1, num2, num3 = lista
+print(num1, num2, num3)
