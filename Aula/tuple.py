@@ -74,6 +74,84 @@ print(soma)
 'Inteirando uma tupla'
 #command
 
+"""
 tupla = (1, 2, 3, 4)
 for num in tupla:
     print(num)
+
+for indice, valor in enumerate(tupla):
+    print(indice, valor)
+"""
+
+
+'contando elementos dentro de uma tupla'
+#command .count()
+
+"""
+tupla = ("a", "b", "c", "d", "e", "a", "b")
+print(tupla.count("c"))
+
+nome = tuple("joaoepedroaranda")
+print(nome)
+print(nome.count("a"))
+"""
+
+
+'Dicas de utilização'
+#command
+
+"""
+meses = ('jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'sep', 'out', 'nov', 'dez')
+#meses = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'sep', 'out', 'nov', 'dez']
+#meses.append("mes 13")
+print(meses)
+"""
+
+
+'Acessando elementos'
+#command
+
+"""
+meses = ('jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'sep', 'out', 'nov', 'dez')
+print(meses[6])
+"""
+
+
+'inteirando com while'
+#command
+
+"""
+meses = ('jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'sep', 'out', 'nov', 'dez')
+
+i = 0
+
+while i < len(meses):
+    print(meses[i])
+    i = i + 1
+"""
+
+
+'verificando qual a posição de um elemento na tuple'
+#command .index()
+
+"""
+meses = ('jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'sep', 'out', 'nov', 'dez')
+
+print(meses.index(5))
+"""
+
+
+'Porque usar tuplas'
+
+"""
+- são mais rápidas do que listas.
+- tuplas deixam seu código mais seguro.(imutabilidade)
+
+"""
+
+
+'copiando tuple'
+#command
+
+tupla = (1, 2, 3)
+nova = tupla
